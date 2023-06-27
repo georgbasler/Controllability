@@ -1,0 +1,2 @@
+# Reclassifies `.m` files as Matlab:
+*.m linguist-language=Matlab
