@@ -13,12 +13,6 @@ Boston, Massachusetts, USA
 Boston, Massachusetts, USA
 6. Center for Cancer Systems Biology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts, USA
 
-## Citation
-
-If this software is useful for your work, please include the following reference in your publication or redistribution:
-
-Georg Basler, Zoran Nikoloski, Abdelhalim Larhlimi, Albert-László Barabási, Yang-Yu Liu (2012): Control of fluxes in metabolic networks. Genome Research, 26: 956-968. https://doi.org/10.1101/gr.202648.115
-
 
 ## Running the code
 
@@ -139,3 +133,10 @@ the activity pattern given by sample i, while '0' indicates that reaction j is n
 
 If you have comments on the tool, or if you receive an error message, please send the error output and the file
 'ErrorXYZ_<date,time>', which is created with the date and time the error occurred, to Georg Basler.
+
+## Citation
+
+If this software is useful for your work, please include the following reference in your publication or redistribution:
+
+Georg Basler, Zoran Nikoloski, Abdelhalim Larhlimi, Albert-László Barabási, Yang-Yu Liu (2012): Control of fluxes in metabolic networks. Genome Research, 26: 956-968. https://doi.org/10.1101/gr.202648.115
+
