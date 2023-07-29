@@ -1,6 +1,5 @@
 # Qualitative Flux Control
 ## A Matlab package to calculate the driver reactions of metabolic networks
-### Last update: 14 May 2015
 
 Georg Basler (1), Zoran Nikoloski (2), Abdelhalim Larhlimi (3), Albert-László Barabási (4-6), Yang-Yu Liu (5,6)
 
@@ -23,12 +22,10 @@ Tomlab is available at http://tomopt.com/scripts/register.php.
 
 ### Running the code
 
-1. Extract the contents of the enclosed qfc.zip file to a local directory.
-
-2. Start Matlab and include the directory containing the unzipped files, including its subdirectories, in the Matlab
+1. Start Matlab and include the repository directory, including its subdirectories, in the Matlab
 search path (see http://www.mathworks.com/help/matlab/ref/path.html).
 
-3. The input files of the metabolic networks analyzed in the paper are found in the exctracted subdirectory 'networks'.
+2. The input files of the metabolic networks analyzed in the paper are found in the subdirectory 'networks'.
 To run the analyes on a different network, the following files must be created and named accordingly:
 	- `<name>.S`
 	  Stoichiometric matrix as tab-separated table.
@@ -41,7 +38,7 @@ To run the analyes on a different network, the following files must be created a
 	  List of metabolite names, where each line in the file contains the name of the corresponding metabolite.
 `<name>` is an arbitrary network name. See the 'networks' directory for examples of input files.
 
-4. To run all analysis on a given network, execute 'runAll(<name>)', where <name> refers to the network name specifying
+3. To run all analysis on a given network, execute 'runAll(`<name>`)', where `<name>` refers to the network name specifying
 the input files. This will run the following calculations:
 	- calculation of blocked reactions, full, partial, and directional coupling using the F2C2 tool (Larhlimi et al.
 	  (2012). BMC Bioinformatics 13, 57)
@@ -50,8 +47,8 @@ the input files. This will run the following calculations:
 	- sampling of 100 reaction activity patterns
 	- calculation of driver reactions
 	
-5. The default Tomlab solver which will be used is 'cplex'. If you want to use a different solver, specify the name as
-second string argument to runAll, e.g. runAll('Ecoli_Core', 'glpk') for using the glpk solver.
+4. The default Tomlab solver which will be used is 'cplex'. If you want to use a different solver, specify the name as
+second string argument to runAll, e.g. `runAll('Ecoli_Core', 'glpk')` for using the glpk solver.
 
 ### Example
 
